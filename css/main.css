@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #ddffff;
+}
+
+body {
+    display: flex;
+    padding: 0 250px;
+}
+
+h1, h2, h3, h4, h5, h6, section, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainSection {
+    background-color: #aaffff;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px #000000;
+}
+
+.bannerMain {
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.bannerLogoContainer {
+    box-sizing: border-box;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bannerLogo {
+    width: 100%;
+}
+
+.bannerTituloContainer {
+    background-color: #aaffff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bannerTitulo {
+    background-color: #aaffff;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.mainParrafo {
+    background-color: #aaffff;
+    text-justify: auto;
+    padding: 10px 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+span {
+    background-color: #aaffff;
+}
+
+.congreSection {
+    background-color: #aaffff;
+}
+
+.congreFoto {
+    background-color: #aaffff;
+    width: 100%;
+}
+
+.jwLogoContainer {
+    background-color: #aaffff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.jwLogo {
+    background-color: #aaffff;
+    padding: 10px 0;
+    width: 15%;
+}
+
+@media (max-width: 1400px) {
+    body {
+        padding: 0 0;
+    }
+
+    .mainSection {
+        margin: 20px;
+        box-shadow: 0 0 20px;
+    }
+}
+
