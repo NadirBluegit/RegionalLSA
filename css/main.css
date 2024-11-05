@@ -8,21 +8,35 @@
 
 body {
     display: flex;
+    justify-content: center;
     padding: 0 250px;
 }
 
-h1, h2, h3, h4, h5, h6, section, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.claseFoto {
+    border-radius: 10px;
+}
+
 .mainSection {
+    border-radius: 20px;
+    border: 0.5px double #88ffff;
     background-color: #aaffff;
     box-sizing: border-box;
     padding: 10px;
     margin: 20px 0;
-    box-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 10px #66ffff;
 }
 
 .bannerMain {
@@ -31,6 +45,7 @@ h1, h2, h3, h4, h5, h6, section, p {
 }
 
 .bannerLogoContainer {
+    background-color: #aaffff;
     box-sizing: border-box;
     display: flex;
     align-content: center;
@@ -38,25 +53,25 @@ h1, h2, h3, h4, h5, h6, section, p {
 }
 
 .bannerLogo {
+    background-color: #aaffff;
     width: 100%;
 }
 
 .bannerTituloContainer {
     background-color: #aaffff;
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 .bannerTitulo {
+    font-size: 32px;
     background-color: #aaffff;
-    padding: 10px;
+    padding: 10px 15px;
     justify-content: center;
     text-align: center;
 }
 
 .mainParrafo {
+    font-size: 20px;
     background-color: #aaffff;
     text-justify: auto;
     padding: 10px 40px;
@@ -77,14 +92,20 @@ span {
     width: 100%;
 }
 
-.jwLogoContainer {
+.logosContainer {
     background-color: #aaffff;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    align-content: space-evenly;
+    justify-content: space-around;
 }
 
 .jwLogo {
+    background-color: #aaffff;
+    padding: 10px 0;
+    width: 15%;
+}
+
+.corazonLogo {
     background-color: #aaffff;
     padding: 10px 0;
     width: 15%;
@@ -98,6 +119,8 @@ span {
     .mainSection {
         margin: 20px;
         box-shadow: 0 0 20px;
+        border-radius: 20px;
+        border: 0.5px double #88ffff;
+        box-shadow: 0 0 10px #66ffff;
     }
 }
-
